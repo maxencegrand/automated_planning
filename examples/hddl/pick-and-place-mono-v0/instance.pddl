@@ -1,0 +1,44 @@
+(define (problem p0)
+(:domain gripper)
+(:objects
+    pos-0-0 pos-0-1 pos-0-2
+    pos-1-0 pos-1-1 pos-1-2 - position
+    green-1 green-2 green-3
+    yellow-1 yellow-2 yellow-3 - cube
+)
+
+(:htn
+    :parameters()
+    :ordered-subtasks(and
+     (task1 (do-move green-1 pos-1-0))
+     (task2 (do-move green-2 pos-1-1))
+     (task3 (do-move green-3 pos-1-2))
+))
+
+(:init
+    (handempty)
+    (free pos-1-0)
+
+    ;green lego
+    (on-position green-1 pos-0-0)
+    (clear green-1)
+    (on-position green-2 pos-0-1)
+    (clear green-2)
+    (on-position green-3 pos-0-2)
+    (clear green-3)
+
+    ;yellow lego
+    (on-position yellow-1 pos-1-1)
+    (clear yellow-1)
+
+    (on-position yellow-2 pos-1-2)
+    (on-position yellow-3 pos-1-2)
+    (stacked yellow-3 yellow-2)
+    (clear yellow-3)
+)
+
+(:goal(and
+     (on-position green-1 pos-1-0)
+     (on-position green-2 pos-1-1)
+))
+)

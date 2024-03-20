@@ -1,12 +1,6 @@
-# automated_planning
+# Automated Planning
 
-## Problem Formalisation
-
-### STRIPS
-
-### Temporal
-
-### HTN
+https://planning.wiki/
 
 ## Planner
 
@@ -14,17 +8,12 @@
 
 #### STRIPS
 
-#### HTN
+	java -cp ${HOME}/pddl4j/build/libs/pddl4j-4.0.jar fr.uga.pddl4j.planners.statespace.FF examples/strips/gripper-strips/gripper.pddl examples/strips/gripper-strips/instance-1.pddl 
 
-### Fast Downward
-
-https://www.fast-downward.org/
-
-#### STRIPS
-
-#### Temporal
 
 #### HTN
+
+	java -cp ${HOME}/pddl4j/build/libs/pddl4j-4.0.0.jar fr.uga.pddl4j.planners.htn.stn.TFD examples/hddl/pick-and-place-mono-v0/gripper.pddl examples/hddl/pick-and-place-mono-v0/instance.pddl 
 
 ## Plan Validation
 

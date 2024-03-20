@@ -139,7 +139,7 @@
 		)
 	)
 
-    (:method serve_0
+    (:method serve_no_gluten
 		:parameters	(?c - child ?s - sandwich ?p2 - place ?t - tray ?b - bread-portion ?cont - content-portion ?kitchen - place)
 		:task (serve ?c)
 		:precondition (and
@@ -158,7 +158,7 @@
 	    )
 	)
 
-    (:method serve_1
+    (:method serve_gluten
 		:parameters	(?c - child ?s - sandwich ?p2 - place ?t - tray ?b - bread-portion ?cont - content-portion ?kitchen - place)
 		:task (serve ?c)
 		:precondition (and

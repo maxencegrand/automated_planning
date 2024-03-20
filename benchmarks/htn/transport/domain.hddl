@@ -35,6 +35,7 @@
 	(:method m_deliver_ordering_0
 		:parameters (?l1 - location ?l2 - location ?p - package ?v - vehicle)
 		:task (deliver ?p ?l2)
+        :préconditions ((at ?p ?l1))
 		:subtasks (and
 		 (task0 (get_to ?v ?l1))
 		 (task1 (load ?v ?l1 ?p))
