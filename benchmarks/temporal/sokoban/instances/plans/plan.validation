@@ -1,0 +1,748 @@
+Type-checking move
+...action passes type checking.
+Type-checking push
+...action passes type checking.
+Checking plan: tmp_sas_plan
+Plan to validate:
+
+Plan size: 74
+0:
+(push player box0 f1-0f f1-1f f1-2f right) - start
+ 
+1:
+Invariant for (push player box0 f1-0f f1-1f f1-2f right)
+ 
+1:
+(push player box0 f1-0f f1-1f f1-2f right) - end
+ 
+1.0002:
+(push player box0 f1-1f f1-2f f1-3f right) - start
+ 
+2.0002:
+Invariant for (push player box0 f1-1f f1-2f f1-3f right)
+ 
+2.0002:
+(push player box0 f1-1f f1-2f f1-3f right) - end
+ 
+2.0004:
+(move player f1-2f f2-2f down) - start
+ 
+3.0004:
+Invariant for (move player f1-2f f2-2f down)
+ 
+3.0004:
+(move player f1-2f f2-2f down) - end
+ 
+3.0006:
+(move player f2-2f f2-3f right) - start
+ 
+4.0006:
+Invariant for (move player f2-2f f2-3f right)
+ 
+4.0006:
+(move player f2-2f f2-3f right) - end
+ 
+4.0008:
+(move player f2-3f f2-4f right) - start
+ 
+5.0008:
+Invariant for (move player f2-3f f2-4f right)
+ 
+5.0008:
+(move player f2-3f f2-4f right) - end
+ 
+5.001:
+(move player f2-4f f1-4f up) - start
+ 
+6.001:
+Invariant for (move player f2-4f f1-4f up)
+ 
+6.001:
+(move player f2-4f f1-4f up) - end
+ 
+6.0012:
+(move player f1-4f f0-4f up) - start
+ 
+7.0012:
+Invariant for (move player f1-4f f0-4f up)
+ 
+7.0012:
+(move player f1-4f f0-4f up) - end
+ 
+7.0014:
+(move player f0-4f f0-3f left) - start
+ 
+8.0014:
+Invariant for (move player f0-4f f0-3f left)
+ 
+8.0014:
+(move player f0-4f f0-3f left) - end
+ 
+8.0016:
+(push player box0 f0-3f f1-3f f2-3f down) - start
+ 
+9.0016:
+Invariant for (push player box0 f0-3f f1-3f f2-3f down)
+ 
+9.0016:
+(push player box0 f0-3f f1-3f f2-3f down) - end
+ 
+9.0018:
+(move player f1-3f f1-2f left) - start
+ 
+10.0018:
+Invariant for (move player f1-3f f1-2f left)
+ 
+10.0018:
+(move player f1-3f f1-2f left) - end
+ 
+10.002:
+(move player f1-2f f2-2f down) - start
+ 
+11.002:
+Invariant for (move player f1-2f f2-2f down)
+ 
+11.002:
+(move player f1-2f f2-2f down) - end
+ 
+11.0022:
+(move player f2-2f f2-1f left) - start
+ 
+12.0022:
+Invariant for (move player f2-2f f2-1f left)
+ 
+12.0022:
+(move player f2-2f f2-1f left) - end
+ 
+12.0024:
+(move player f2-1f f2-0f left) - start
+ 
+13.0024:
+Invariant for (move player f2-1f f2-0f left)
+ 
+13.0024:
+(move player f2-1f f2-0f left) - end
+ 
+13.0026:
+(move player f2-0f f3-0f down) - start
+ 
+14.0026:
+Invariant for (move player f2-0f f3-0f down)
+ 
+14.0026:
+(move player f2-0f f3-0f down) - end
+ 
+14.0028:
+(push player box1 f3-0f f3-1f f3-2f right) - start
+ 
+15.0028:
+Invariant for (push player box1 f3-0f f3-1f f3-2f right)
+ 
+15.0028:
+(push player box1 f3-0f f3-1f f3-2f right) - end
+ 
+15.003:
+(move player f3-1f f4-1f down) - start
+ 
+16.003:
+Invariant for (move player f3-1f f4-1f down)
+ 
+16.003:
+(move player f3-1f f4-1f down) - end
+ 
+16.0032:
+(move player f4-1f f4-2f right) - start
+ 
+17.0032:
+Invariant for (move player f4-1f f4-2f right)
+ 
+17.0032:
+(move player f4-1f f4-2f right) - end
+ 
+17.0034:
+(push player box1 f4-2f f3-2f f2-2f up) - start
+ 
+18.0034:
+Invariant for (push player box1 f4-2f f3-2f f2-2f up)
+ 
+18.0034:
+(push player box1 f4-2f f3-2f f2-2f up) - end
+ 
+18.0036:
+(push player box1 f3-2f f2-2f f1-2f up) - start
+ 
+19.0036:
+Invariant for (push player box1 f3-2f f2-2f f1-2f up)
+ 
+19.0036:
+(push player box1 f3-2f f2-2f f1-2f up) - end
+ 
+19.0038:
+(move player f2-2f f2-1f left) - start
+ 
+20.0038:
+Invariant for (move player f2-2f f2-1f left)
+ 
+20.0038:
+(move player f2-2f f2-1f left) - end
+ 
+20.004:
+(move player f2-1f f1-1f up) - start
+ 
+21.004:
+Invariant for (move player f2-1f f1-1f up)
+ 
+21.004:
+(move player f2-1f f1-1f up) - end
+ 
+21.0042:
+(push player box1 f1-1f f1-2f f1-3f right) - start
+ 
+22.0042:
+Invariant for (push player box1 f1-1f f1-2f f1-3f right)
+ 
+22.0042:
+(push player box1 f1-1f f1-2f f1-3f right) - end
+ 
+22.0044:
+(push player box1 f1-2f f1-3f f1-4f right) - start
+ 
+23.0044:
+Invariant for (push player box1 f1-2f f1-3f f1-4f right)
+ 
+23.0044:
+(push player box1 f1-2f f1-3f f1-4f right) - end
+ 
+23.0046:
+(move player f1-3f f0-3f up) - start
+ 
+24.0046:
+Invariant for (move player f1-3f f0-3f up)
+ 
+24.0046:
+(move player f1-3f f0-3f up) - end
+ 
+24.0048:
+(move player f0-3f f0-4f right) - start
+ 
+25.0048:
+Invariant for (move player f0-3f f0-4f right)
+ 
+25.0048:
+(move player f0-3f f0-4f right) - end
+ 
+25.005:
+(push player box1 f0-4f f1-4f f2-4f down) - start
+ 
+26.005:
+Invariant for (push player box1 f0-4f f1-4f f2-4f down)
+ 
+26.005:
+(push player box1 f0-4f f1-4f f2-4f down) - end
+ 
+26.0052:
+(push player box1 f1-4f f2-4f f3-4f down) - start
+ 
+27.0052:
+Invariant for (push player box1 f1-4f f2-4f f3-4f down)
+ 
+27.0052:
+(push player box1 f1-4f f2-4f f3-4f down) - end
+ 
+27.0054:
+(push player box1 f2-4f f3-4f f4-4f down) - start
+ 
+28.0054:
+Invariant for (push player box1 f2-4f f3-4f f4-4f down)
+ 
+28.0054:
+(push player box1 f2-4f f3-4f f4-4f down) - end
+ 
+28.0056:
+(move player f3-4f f2-4f up) - start
+ 
+29.0056:
+Invariant for (move player f3-4f f2-4f up)
+ 
+29.0056:
+(move player f3-4f f2-4f up) - end
+ 
+29.0058:
+(move player f2-4f f1-4f up) - start
+ 
+30.0058:
+Invariant for (move player f2-4f f1-4f up)
+ 
+30.0058:
+(move player f2-4f f1-4f up) - end
+ 
+30.006:
+(move player f1-4f f1-3f left) - start
+ 
+31.006:
+Invariant for (move player f1-4f f1-3f left)
+ 
+31.006:
+(move player f1-4f f1-3f left) - end
+ 
+31.0062:
+(move player f1-3f f1-2f left) - start
+ 
+32.0062:
+Invariant for (move player f1-3f f1-2f left)
+ 
+32.0062:
+(move player f1-3f f1-2f left) - end
+ 
+32.0064:
+(move player f1-2f f2-2f down) - start
+ 
+33.0064:
+Invariant for (move player f1-2f f2-2f down)
+ 
+33.0064:
+(move player f1-2f f2-2f down) - end
+ 
+33.0066:
+(push player box0 f2-2f f2-3f f2-4f right) - start
+ 
+34.0066:
+Invariant for (push player box0 f2-2f f2-3f f2-4f right)
+ 
+34.0066:
+(push player box0 f2-2f f2-3f f2-4f right) - end
+ 
+34.0068:
+(move player f2-3f f1-3f up) - start
+ 
+35.0068:
+Invariant for (move player f2-3f f1-3f up)
+ 
+35.0068:
+(move player f2-3f f1-3f up) - end
+ 
+35.007:
+(move player f1-3f f1-4f right) - start
+ 
+36.007:
+Invariant for (move player f1-3f f1-4f right)
+ 
+36.007:
+(move player f1-3f f1-4f right) - end
+ 
+36.0072:
+(push player box0 f1-4f f2-4f f3-4f down) - start
+ 
+37.0072:
+Invariant for (push player box0 f1-4f f2-4f f3-4f down)
+ 
+37.0072:
+(push player box0 f1-4f f2-4f f3-4f down) - end
+ 
+
+Plan Validation details
+-----------------------
+
+Checking next happening (time 0)
+Deleting (at box0 f1-1f)
+Deleting (clear f1-2f)
+Deleting (at player f1-0f)
+
+Checking next happening (time 1)
+
+Checking next happening (time 1)
+Adding (at box0 f1-2f)
+Adding (clear f1-0f)
+Adding (at player f1-1f)
+
+Checking next happening (time 1.0002)
+Deleting (at box0 f1-2f)
+Deleting (clear f1-3f)
+Deleting (at player f1-1f)
+
+Checking next happening (time 2.0002)
+
+Checking next happening (time 2.0002)
+Adding (at box0 f1-3f)
+Adding (clear f1-1f)
+Adding (at player f1-2f)
+
+Checking next happening (time 2.0004)
+Deleting (clear f2-2f)
+Deleting (at player f1-2f)
+
+Checking next happening (time 3.0004)
+
+Checking next happening (time 3.0004)
+Adding (clear f1-2f)
+Adding (at player f2-2f)
+
+Checking next happening (time 3.0006)
+Deleting (clear f2-3f)
+Deleting (at player f2-2f)
+
+Checking next happening (time 4.0006)
+
+Checking next happening (time 4.0006)
+Adding (clear f2-2f)
+Adding (at player f2-3f)
+
+Checking next happening (time 4.0008)
+Deleting (clear f2-4f)
+Deleting (at player f2-3f)
+
+Checking next happening (time 5.0008)
+
+Checking next happening (time 5.0008)
+Adding (clear f2-3f)
+Adding (at player f2-4f)
+
+Checking next happening (time 5.001)
+Deleting (clear f1-4f)
+Deleting (at player f2-4f)
+
+Checking next happening (time 6.001)
+
+Checking next happening (time 6.001)
+Adding (clear f2-4f)
+Adding (at player f1-4f)
+
+Checking next happening (time 6.0012)
+Deleting (clear f0-4f)
+Deleting (at player f1-4f)
+
+Checking next happening (time 7.0012)
+
+Checking next happening (time 7.0012)
+Adding (clear f1-4f)
+Adding (at player f0-4f)
+
+Checking next happening (time 7.0014)
+Deleting (clear f0-3f)
+Deleting (at player f0-4f)
+
+Checking next happening (time 8.0014)
+
+Checking next happening (time 8.0014)
+Adding (clear f0-4f)
+Adding (at player f0-3f)
+
+Checking next happening (time 8.0016)
+Deleting (at box0 f1-3f)
+Deleting (clear f2-3f)
+Deleting (at player f0-3f)
+
+Checking next happening (time 9.0016)
+
+Checking next happening (time 9.0016)
+Adding (at box0 f2-3f)
+Adding (clear f0-3f)
+Adding (at player f1-3f)
+
+Checking next happening (time 9.0018)
+Deleting (clear f1-2f)
+Deleting (at player f1-3f)
+
+Checking next happening (time 10.0018)
+
+Checking next happening (time 10.0018)
+Adding (clear f1-3f)
+Adding (at player f1-2f)
+
+Checking next happening (time 10.002)
+Deleting (clear f2-2f)
+Deleting (at player f1-2f)
+
+Checking next happening (time 11.002)
+
+Checking next happening (time 11.002)
+Adding (clear f1-2f)
+Adding (at player f2-2f)
+
+Checking next happening (time 11.0022)
+Deleting (clear f2-1f)
+Deleting (at player f2-2f)
+
+Checking next happening (time 12.0022)
+
+Checking next happening (time 12.0022)
+Adding (clear f2-2f)
+Adding (at player f2-1f)
+
+Checking next happening (time 12.0024)
+Deleting (clear f2-0f)
+Deleting (at player f2-1f)
+
+Checking next happening (time 13.0024)
+
+Checking next happening (time 13.0024)
+Adding (clear f2-1f)
+Adding (at player f2-0f)
+
+Checking next happening (time 13.0026)
+Deleting (clear f3-0f)
+Deleting (at player f2-0f)
+
+Checking next happening (time 14.0026)
+
+Checking next happening (time 14.0026)
+Adding (clear f2-0f)
+Adding (at player f3-0f)
+
+Checking next happening (time 14.0028)
+Deleting (at box1 f3-1f)
+Deleting (clear f3-2f)
+Deleting (at player f3-0f)
+
+Checking next happening (time 15.0028)
+
+Checking next happening (time 15.0028)
+Adding (at box1 f3-2f)
+Adding (clear f3-0f)
+Adding (at player f3-1f)
+
+Checking next happening (time 15.003)
+Deleting (clear f4-1f)
+Deleting (at player f3-1f)
+
+Checking next happening (time 16.003)
+
+Checking next happening (time 16.003)
+Adding (clear f3-1f)
+Adding (at player f4-1f)
+
+Checking next happening (time 16.0032)
+Deleting (clear f4-2f)
+Deleting (at player f4-1f)
+
+Checking next happening (time 17.0032)
+
+Checking next happening (time 17.0032)
+Adding (clear f4-1f)
+Adding (at player f4-2f)
+
+Checking next happening (time 17.0034)
+Deleting (at box1 f3-2f)
+Deleting (clear f2-2f)
+Deleting (at player f4-2f)
+
+Checking next happening (time 18.0034)
+
+Checking next happening (time 18.0034)
+Adding (at box1 f2-2f)
+Adding (clear f4-2f)
+Adding (at player f3-2f)
+
+Checking next happening (time 18.0036)
+Deleting (at box1 f2-2f)
+Deleting (clear f1-2f)
+Deleting (at player f3-2f)
+
+Checking next happening (time 19.0036)
+
+Checking next happening (time 19.0036)
+Adding (at box1 f1-2f)
+Adding (clear f3-2f)
+Adding (at player f2-2f)
+
+Checking next happening (time 19.0038)
+Deleting (clear f2-1f)
+Deleting (at player f2-2f)
+
+Checking next happening (time 20.0038)
+
+Checking next happening (time 20.0038)
+Adding (clear f2-2f)
+Adding (at player f2-1f)
+
+Checking next happening (time 20.004)
+Deleting (clear f1-1f)
+Deleting (at player f2-1f)
+
+Checking next happening (time 21.004)
+
+Checking next happening (time 21.004)
+Adding (clear f2-1f)
+Adding (at player f1-1f)
+
+Checking next happening (time 21.0042)
+Deleting (at box1 f1-2f)
+Deleting (clear f1-3f)
+Deleting (at player f1-1f)
+
+Checking next happening (time 22.0042)
+
+Checking next happening (time 22.0042)
+Adding (at box1 f1-3f)
+Adding (clear f1-1f)
+Adding (at player f1-2f)
+
+Checking next happening (time 22.0044)
+Deleting (at box1 f1-3f)
+Deleting (clear f1-4f)
+Deleting (at player f1-2f)
+
+Checking next happening (time 23.0044)
+
+Checking next happening (time 23.0044)
+Adding (at box1 f1-4f)
+Adding (clear f1-2f)
+Adding (at player f1-3f)
+
+Checking next happening (time 23.0046)
+Deleting (clear f0-3f)
+Deleting (at player f1-3f)
+
+Checking next happening (time 24.0046)
+
+Checking next happening (time 24.0046)
+Adding (clear f1-3f)
+Adding (at player f0-3f)
+
+Checking next happening (time 24.0048)
+Deleting (clear f0-4f)
+Deleting (at player f0-3f)
+
+Checking next happening (time 25.0048)
+
+Checking next happening (time 25.0048)
+Adding (clear f0-3f)
+Adding (at player f0-4f)
+
+Checking next happening (time 25.005)
+Deleting (at box1 f1-4f)
+Deleting (clear f2-4f)
+Deleting (at player f0-4f)
+
+Checking next happening (time 26.005)
+
+Checking next happening (time 26.005)
+Adding (at box1 f2-4f)
+Adding (clear f0-4f)
+Adding (at player f1-4f)
+
+Checking next happening (time 26.0052)
+Deleting (at box1 f2-4f)
+Deleting (clear f3-4f)
+Deleting (at player f1-4f)
+
+Checking next happening (time 27.0052)
+
+Checking next happening (time 27.0052)
+Adding (at box1 f3-4f)
+Adding (clear f1-4f)
+Adding (at player f2-4f)
+
+Checking next happening (time 27.0054)
+Deleting (at box1 f3-4f)
+Deleting (clear f4-4f)
+Deleting (at player f2-4f)
+
+Checking next happening (time 28.0054)
+
+Checking next happening (time 28.0054)
+Adding (at box1 f4-4f)
+Adding (clear f2-4f)
+Adding (at player f3-4f)
+
+Checking next happening (time 28.0056)
+Deleting (clear f2-4f)
+Deleting (at player f3-4f)
+
+Checking next happening (time 29.0056)
+
+Checking next happening (time 29.0056)
+Adding (clear f3-4f)
+Adding (at player f2-4f)
+
+Checking next happening (time 29.0058)
+Deleting (clear f1-4f)
+Deleting (at player f2-4f)
+
+Checking next happening (time 30.0058)
+
+Checking next happening (time 30.0058)
+Adding (clear f2-4f)
+Adding (at player f1-4f)
+
+Checking next happening (time 30.006)
+Deleting (clear f1-3f)
+Deleting (at player f1-4f)
+
+Checking next happening (time 31.006)
+
+Checking next happening (time 31.006)
+Adding (clear f1-4f)
+Adding (at player f1-3f)
+
+Checking next happening (time 31.0062)
+Deleting (clear f1-2f)
+Deleting (at player f1-3f)
+
+Checking next happening (time 32.0062)
+
+Checking next happening (time 32.0062)
+Adding (clear f1-3f)
+Adding (at player f1-2f)
+
+Checking next happening (time 32.0064)
+Deleting (clear f2-2f)
+Deleting (at player f1-2f)
+
+Checking next happening (time 33.0064)
+
+Checking next happening (time 33.0064)
+Adding (clear f1-2f)
+Adding (at player f2-2f)
+
+Checking next happening (time 33.0066)
+Deleting (at box0 f2-3f)
+Deleting (clear f2-4f)
+Deleting (at player f2-2f)
+
+Checking next happening (time 34.0066)
+
+Checking next happening (time 34.0066)
+Adding (at box0 f2-4f)
+Adding (clear f2-2f)
+Adding (at player f2-3f)
+
+Checking next happening (time 34.0068)
+Deleting (clear f1-3f)
+Deleting (at player f2-3f)
+
+Checking next happening (time 35.0068)
+
+Checking next happening (time 35.0068)
+Adding (clear f2-3f)
+Adding (at player f1-3f)
+
+Checking next happening (time 35.007)
+Deleting (clear f1-4f)
+Deleting (at player f1-3f)
+
+Checking next happening (time 36.007)
+
+Checking next happening (time 36.007)
+Adding (clear f1-3f)
+Adding (at player f1-4f)
+
+Checking next happening (time 36.0072)
+Deleting (at box0 f2-4f)
+Deleting (clear f3-4f)
+Deleting (at player f1-4f)
+
+Checking next happening (time 37.0072)
+
+Checking next happening (time 37.0072)
+Adding (at box0 f3-4f)
+Adding (clear f1-4f)
+Adding (at player f2-4f)
+Plan executed successfully - checking goal
+Plan valid
+Final value: 37 
+
+Successful plans:
+Value: 37
+ tmp_sas_plan 37 
+
